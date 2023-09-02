@@ -295,8 +295,125 @@ public class Patterns {
         }
     }
 
+    // **********   => line 1 - i = 0 - 5 star + 0 space + 5 star
+    // ****  ****   => line 2 - i = 1 - 4 star + 2 space + 4 star
+    // ***    ***   => line 3 - i = 2 - 3 star + 4 space + 3 star
+    // **      **   => line 4 - i = 3 - 2 star + 6 space + 2 star
+    // *        *   => line 5 - i = 4 - 1 star + 8 space + 1 star
+    // *        *   => line 6 - i = 0 - 1 star + 8 space + 1 star
+    // **      **   => line 7 - i = 1 - 2 star + 6 space + 2 star
+    // ***    ***   => line 8 - i = 2 - 3 star + 4 space + 3 star
+    // ****  ****   => line 9 - i = 3 - 4 star + 2 space + 4 star
+    // **********   => line 10 - i = 4 - 5 star + 0 space + 5 star
+    static void pattern19(int n) {
+        int spaces = 0;
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n - i; j++) {
+                System.out.print("*");
+            }
+            for (int j = 0; j < spaces; j++) {
+                System.out.print(" ");
+            }
+            for (int j = 0; j < n - i; j++) {
+                System.out.print("*");
+            }
+            spaces += 2;
+            System.out.println();
+        }
+
+        spaces = 2 * n - 2;
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < i + 1; j++) {
+                System.out.print("*");
+            }
+            for (int j = 0; j < spaces; j++) {
+                System.out.print(" ");
+            }
+            for (int j = 0; j < i + 1; j++) {
+                System.out.print("*");
+            }
+            spaces -=2 ;
+            System.out.println();
+        }
+    }
+
+    // *        *   => i = 0 - 1 star + 8 space + 1 star
+    // **      **   => i = 1 - 2 star + 6 space + 2 star
+    // ***    ***   => i = 2 - 3 star + 4 space + 3 star
+    // ****  ****   => i = 3 - 4 star + 2 space + 4 star
+    // **********   => i = 4 - 5 star + 0 space + 5 star
+    // ****  ****   => i = 5 - 4 star + 2 space + 4 star
+    // ***    ***   => i = 6 - 3 star + 4 space + 3 star
+    // **      **   => i = 7 - 2 star + 6 space + 2 star
+    // *        *   => i = 8 - 1 star + 8 space + 1 star
+    static void pattern20(int n) {
+        int spaces = 2 * n - 2;
+        for (int i = 0; i < 2 * n - 1; i++) {
+            int stars = i + 1;
+            if (i >= n) {
+                stars = 2 * n - i - 1;
+            }
+            for (int j = 0; j < stars; j++) {
+                System.out.print("*");
+            }
+            for (int j = 0; j < spaces; j++) {
+                System.out.print(" ");
+            }
+            for (int j = 0; j < stars; j++) {
+                System.out.print("*");
+            }
+            if (i < n - 1) {
+                spaces -= 2;
+            }
+            else {
+                spaces += 2;
+            }
+            System.out.println();
+        }
+    }
+
+    // *****   => stars are printed only on boundaries
+    // *   *
+    // *   *
+    // *   *
+    // *****
+    static void pattern21(int n) {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                if (i == 0 || i == n - 1 || j == 0 || j == n - 1) {
+                    System.out.print("*");
+                }
+                else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+    }
+
+    // 4444444         0000000
+    // 4333334         0111110
+    // 4322234         0122210
+    // 4321234   ===>  0123210
+    // 4322234         0122210
+    // 4333334         0111110
+    // 4444444         0000000
+    // subtract each number from 4 and get new matrix
+    // in new matrix for each position, the value is its minimal distance from boundary
+    static void pattern22(int n) {
+        for (int i = 0; i < 2 * n - 1; i++) {
+            for (int j = 0; j < 2 * n - 1; j++) {
+                int top = i;
+                int left = j;
+                int right = (2 * n - 1) - 1 - j;
+                int bottom = (2 * n - 1) - 1 - i;
+                System.out.print(n - Math.min(Math.min(top, bottom), Math.min(left, right)));
+            }
+            System.out.println();
+        }
+    }
     public static void main(String[] args) {
-        int n = 6;
+        int n = 4;
 
         // pattern1(n);
         // pattern2(n);
@@ -316,5 +433,9 @@ public class Patterns {
         // pattern16(n);
         // pattern17(n);
         // pattern18(n);
+        // pattern19(n);
+        // pattern20(n);
+        // pattern21(n);
+        pattern22(n);
     }
 }
