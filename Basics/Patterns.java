@@ -106,10 +106,6 @@ public class Patterns {
         }
     }
 
-    //     *       => 4 space then 1 star
-    //    ***      => 3 space then 3 star
-    //   *****     => 2 space then 5 star
-    //  *******    => 1 space then 7 star
     // *********   => 0 space then 9 star
     //  *******    => 1 space then 7 star
     //   *****     => 2 space then 5 star
@@ -127,14 +123,43 @@ public class Patterns {
         }
     }
 
+    //     *       => 4 space then 1 star
+    //    ***      => 3 space then 3 star
+    //   *****     => 2 space then 5 star
+    //  *******    => 1 space then 7 star
     // *********   => 0 space then 9 star
     //  *******    => 1 space then 7 star
     //   *****     => 2 space then 5 star
     //    ***      => 3 space then 3 star
     //     *       => 4 space then 1 star
     static void pattern9(int n) {
-
+        pattern7(n);
+        pattern8(n);
     }
+
+    // *      => line 1 - 1 star
+    // **     => line 2 - 2 star
+    // ***    => line 3 - 3 star
+    // ****   => line 4 - 4 star
+    // *****  => line 5 - 5 star
+    // ****   => line 6 - 4 star
+    // ***    => line 7 - 3 star
+    // **     => line 8 - 2 star
+    // *      => line 9 - 1 star
+    static void pattern10(int n) {
+        // pattern2(n);
+        // pattern5(n-1);
+
+        for (int i = 0; i < 2 * n - 1; i++) {
+            int stars = i + 1;
+            if (i >= n) stars = 2 * n - i - 1;
+            for (int j = 0; j < stars; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+
     public static void main(String[] args) {
         int n = 5;
 
@@ -146,6 +171,7 @@ public class Patterns {
         // pattern6(n);
         // pattern7(n);
         // pattern8(n);
-        pattern9(n);
+        // pattern9(n);
+        // pattern10(n);
     }
 }
