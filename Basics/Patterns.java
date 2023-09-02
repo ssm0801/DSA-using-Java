@@ -160,8 +160,143 @@ public class Patterns {
         }
     }
 
+    // 1
+    // 0 1
+    // 1 0 1
+    // 0 1 0 1
+    // 1 0 1 0 1
+    static void pattern11(int n) {
+        for (int i = 0; i < n; i++) {
+            int digit = 1;
+            if (i % 2 == 1) digit = 0;
+            for (int j = 0; j < i + 1; j++) {
+                System.out.print(digit + " ");
+                digit = 1 - digit;
+            }
+            System.out.println();
+        }
+    }
+
+    // 1        1   => line 1 - 1 digit + 8 space + 1 digit
+    // 12      21   => line 2 - 2 digit + 6 space + 2 digit
+    // 123    321   => line 3 - 3 digit + 4 space + 3 digit
+    // 1234  4321   => line 4 - 4 digit + 2 space + 4 digit
+    // 1234554321   => line 5 - 5 digit + 0 space + 5 digit
+    static void pattern12(int n) {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < i + 1; j++) {
+                System.out.print(j + 1);
+            }
+            for (int j = 0; j < 2 * n - 2 * (i + 1); j++) {
+                System.out.print(" ");
+            }
+            for (int j = i + 1; j > 0; j--) {
+                System.out.print(j);
+            }
+            System.out.println();
+        }
+    }
+
+    // 1
+    // 2 3
+    // 4 5 6
+    // 7 8 9 10
+    // 11 12 13 14 15
+    static void pattern13(int n) {
+        int num = 1;
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < i + 1; j++) {
+                System.out.print(num + " ");
+                num += 1;
+            }
+            System.out.println();
+        }
+    }
+
+    // A
+    // AB
+    // ABC
+    // ABCD
+    // ABCDE
+    static void pattern14(int n) {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < i + 1; j++) {
+                System.out.print((char)(65 + j));
+            }
+            System.out.println();
+        }
+    }
+
+    // ABCDE
+    // ABCD
+    // ABC
+    // AB
+    // A
+    static void pattern15(int n) {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n - i; j++) {
+                System.out.print((char)(65 + j));
+            }
+            System.out.println();
+        }
+    }
+
+    // A
+    // BB
+    // CCC
+    // DDDD
+    // EEEEE
+    static void pattern16(int n) {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < i + 1; j++) {
+                System.out.print((char)(65 + i));
+            }
+            System.out.println();
+        }
+    }
+
+    //     A      => line 1 - 4 space + 1+0 char
+    //    ABA     => line 2 - 3 space + 2+1 char
+    //   ABCBA    => line 3 - 2 space + 3+2 char
+    //  ABCDCBA   => line 4 - 1 space + 4+3 char
+    // ABCDEDCBA  => line 5 - 0 space + 5+4 char
+    static void pattern17(int n) {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n - i - 1; j++) {
+                System.out.print(" ");
+            }
+            char ch = 'A';
+            int mid = (2 * i + 1) / 2;
+            for (int j = 0; j < 2 * i + 1; j++) {
+                System.out.print(ch);
+                if (j < mid)
+                    ch++;
+                else
+                    ch--;
+            }
+            System.out.println();
+        }
+    }
+
+    // E           => line 1 - start E - 65 + 4 (5-1)
+    // D E         => line 2 - start D - 65 + 3 (5-2)
+    // C D E       => line 3 - start C - 65 + 2 (5-3)
+    // B C D E     => line 4 - start B - 65 + 1 (5-4)
+    // A B C D E   => line 5 - start A - 65 + 0 (5-5)
+    static void pattern18(int n) {
+        for (int i = 0; i < n; i++) {
+            // char ch = (char) (64 + n - i);
+            char ch = (char) (65 + n - (i + 1));
+            for (int j = 0; j < i + 1; j++) {
+                System.out.print(ch + " ");
+                ch++;
+            }
+            System.out.println();
+        }
+    }
+
     public static void main(String[] args) {
-        int n = 5;
+        int n = 6;
 
         // pattern1(n);
         // pattern2(n);
@@ -173,5 +308,13 @@ public class Patterns {
         // pattern8(n);
         // pattern9(n);
         // pattern10(n);
+        // pattern11(n);
+        // pattern12(n);
+        // pattern13(n);
+        // pattern14(n);
+        // pattern15(n);
+        // pattern16(n);
+        // pattern17(n);
+        // pattern18(n);
     }
 }
