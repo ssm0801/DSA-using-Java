@@ -1,3 +1,5 @@
+package Basics;
+
 public class Functions {
     // Can reference both static and non-static context
     void greet(String name) {
