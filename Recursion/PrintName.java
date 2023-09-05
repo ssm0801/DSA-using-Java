@@ -1,15 +1,29 @@
-package Basics;
+package Recursion;
 
-public class Recursion {
-    static void print(String name, int n) {
+public class PrintName {
+
+    // TC = O(n)
+    // SC = O(n)
+    static void printName1(String name, int n) {
         if (n == 0)
             return;
         System.out.println(name);
-        print(name, --n);
+        printName1(name, n - 1);
     }
+
+    // TC = O(n)
+    // SC = O(n)
+    static void printName2(String name, int i, int n) {
+        if (i > n)
+            return;
+        System.out.println(name);
+        printName2(name, i + 1, n);
+    }
+
     public static void main(String[] args) {
-        String name = "Sudhanshu";
+        String name = "John";
         int n = 5;
-        print(name, n);
+        printName1("x", n);
+        printName2("y", 1, n);
     }
 }

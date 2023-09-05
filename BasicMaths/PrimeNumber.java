@@ -1,7 +1,5 @@
 package BasicMaths;
 
-import java.util.List;
-
 public class PrimeNumber {
 
     // TC = O(n)
