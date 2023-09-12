@@ -7,3 +7,10 @@
 5. backtracking basically means, print data before ending function, not before making recursion call
 6. parameterized recursion is basically pass extra params to get ans
 7. in functional recursion we break down problem in sub problem
+
+
+```java
+Factorial => f(n) = n * f(n-1)
+Fibonacci => f(n) = f(n-1) + f(n-2)
+Palindrome
+```
