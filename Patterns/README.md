@@ -10,5 +10,5 @@
 look for below thing in patterns
 [characters + spaces + characters]
 
-Imp Q. 18, 21, 10, 12, 17, 20, 22
+Imp Q. 10, 12, 17, 18, 20, 21, 22
 ```
