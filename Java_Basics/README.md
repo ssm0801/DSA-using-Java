@@ -7,7 +7,7 @@
 5. [Pass by value](https://github.com/ssm0801/DSA-using-Java/blob/master/Java_Basics/PassByValue.java)
 6. [Pass by reference](https://github.com/ssm0801/DSA-using-Java/blob/master/Java_Basics/PassByReference.java)
 
-# User Input
+## User Input
 
 ```java
 // integer related
@@ -25,7 +25,7 @@ char g = scanner.next().charAt(0);
 String h = scanner.next();
 ```
 
-# Arrays
+## Arrays
 
 **Different ways to declare 1D array**
 
@@ -64,7 +64,7 @@ import java.util.Arrays;
 System.out.println(Arrays.toString(arr));
 ```
 
-# Enhanced Switch Case
+## Enhanced Switch Case
 
 ```java
 switch (num) {
@@ -79,13 +79,13 @@ switch (num) {
 }
 ```
 
-# Function
+## Function
 
 - Non-static function can reference static and non-static context
 - Static function can only reference static context
 - Static functions can be called using class name
 
-# Pass by value & reference
+## Pass by value & reference
 
 - Java strictly have pass by value only
 - For objects (including array) gives illusion of pass by reference
