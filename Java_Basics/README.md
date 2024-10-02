@@ -1,3 +1,30 @@
+# Order
+
+1. [User Input](https://github.com/ssm0801/DSA-using-Java/blob/master/Java_Basics/InputOutput.java)
+2. [Array](https://github.com/ssm0801/DSA-using-Java/blob/master/Java_Basics/Array.java)
+3. [Enhanced Switch Case](https://github.com/ssm0801/DSA-using-Java/blob/master/Java_Basics/EnhancedSwitch.java)
+4. [Functions](https://github.com/ssm0801/DSA-using-Java/blob/master/Java_Basics/Functions.java)
+5. [Pass by value](https://github.com/ssm0801/DSA-using-Java/blob/master/Java_Basics/PassByValue.java)
+6. [Pass by reference](https://github.com/ssm0801/DSA-using-Java/blob/master/Java_Basics/PassByReference.java)
+
+# User Input
+
+```java
+// integer related
+byte a = scanner.nextByte();
+short b = scanner.nextShort();
+int c = scanner.nextInt();
+long d = scanner.nextLong();
+
+// decimal related
+float e = scanner.nextFloat();
+double f = scanner.nextDouble();
+
+// string related
+char g = scanner.next().charAt(0);
+String h = scanner.next();
+```
+
 # Arrays
 
 **Different ways to declare 1D array**
@@ -28,7 +55,9 @@ int[][] arr = new int[3][];
 ```
 
 **Print Array**
+
 - To print array we can use `toString` function from `Arrays`
+
 ```java
 import java.util.Arrays;
 
@@ -50,29 +79,13 @@ switch (num) {
 }
 ```
 
-# User Input
-
-```java
-// integer related
-byte a = scanner.nextByte();
-short b = scanner.nextShort();
-int c = scanner.nextInt();
-long d = scanner.nextLong();
-
-// decimal related
-float e = scanner.nextFloat();
-double f = scanner.nextDouble();
-
-// string related
-char g = scanner.next().charAt(0);
-String h = scanner.next();
-```
-
 # Function
+
 - Non-static function can reference static and non-static context
 - Static function can only reference static context
 - Static functions can be called using class name
 
 # Pass by value & reference
+
 - Java strictly have pass by value only
 - For objects (including array) gives illusion of pass by reference
