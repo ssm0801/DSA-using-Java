@@ -4,6 +4,9 @@ import java.util.Arrays;
 
 public class Array {
     public static void main(String[] args) {
+        // c type array declaration not recommended in java
+        int arr[] = {1,2,3};
+        // java type array declaration
         int[] arr1 = { 1, 2, 3, 4, 5 };
         int[] arr2 = new int[] { 1, 2, 3, 4, 5 };
         // default values are 0
