@@ -20,14 +20,6 @@
 - Avoid constants
 - Consider highest value only
 
-### Imp formulas
-
-![Image](https://slideplayer.com/slide/9174561/27/images/7/Summation+Formulas+Theorem.jpg)
-
-![Image](https://lh4.googleusercontent.com/6fItZyh2w-o7iIhOMZlq3PgcCWrTuG0p9vZ6CrKoK6DZ1tv2mavO_4oDhqvV3cv94jxOQdeulVDrDZk4H8ji7Z5Za1aViJucFISa3CBBPoPFScMjHP_uLIfWcj9rUNc4F8oxdLVK)
-
-![Image](https://cdn1.byjus.com/wp-content/uploads/2021/07/sum-to-n-terms-of-a-g-p.png)
-
 ### Time Complexity Graph
 
 ![Image](https://miro.medium.com/v2/resize:fit:720/format:webp/0*sHLx8GgoVye4Ku2c.png)
@@ -53,6 +45,14 @@
 - Call stack has to be considered for recursion functions
 - For each new recursive call new entry is added in call stack
 - SC = Depth of recursion tree \* Memory used in each call
+
+### Imp formulas
+
+![Image](https://slideplayer.com/slide/9174561/27/images/7/Summation+Formulas+Theorem.jpg)
+
+![Image](https://lh4.googleusercontent.com/6fItZyh2w-o7iIhOMZlq3PgcCWrTuG0p9vZ6CrKoK6DZ1tv2mavO_4oDhqvV3cv94jxOQdeulVDrDZk4H8ji7Z5Za1aViJucFISa3CBBPoPFScMjHP_uLIfWcj9rUNc4F8oxdLVK)
+
+![Image](https://cdn1.byjus.com/wp-content/uploads/2021/07/sum-to-n-terms-of-a-g-p.png)
 
 ## Problems
 
