@@ -101,7 +101,8 @@ for(int i=1; i<=n; i++) {
 
 ================================
 
-outer loop goes from 1 to n, and in each iteration some work is done i (outer number) times, lets say k work is done in each iteration
+outer loop goes from 1 to n, and in each iteration some work is done i (outer number) times
+lets say k work is done in each iteration
 Total operation = (1 * k) + (2 * k) + (3 * k) + ... + (n * k)
                 = (1 + 2 + 3 + ... + n) * k
                 = (n * (n + 1) * k) / 2     [Avoid constant]
