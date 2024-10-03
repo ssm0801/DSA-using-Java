@@ -1,6 +1,4 @@
-# Time and Space Complexity
-
-## Time Complexity (TC)
+# Time Complexity (TC)
 
 - Rate at which time taken increaes with respect to input size
 
@@ -34,7 +32,7 @@
   1. Recurrance relation
   2. TC = Total no. of recursive calls \* Work done in each call
 
-## Space Complexity (SC)
+# Space Complexity (SC)
 
 - Extra memory/space which is required for algorithm like variables i.e auxiliary space
 - The order of that auxiliary space is SC, like for array it is `n`, for single variables it is `1`
