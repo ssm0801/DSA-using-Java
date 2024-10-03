@@ -1,6 +1,6 @@
 # DSA-using-JAVA
 
-## Order
+## Table of Contents
 
 1. [Java Basics](https://github.com/ssm0801/DSA-using-Java/tree/master/Java_Basics)
 2. [Time & Space Complexity](https://github.com/ssm0801/DSA-using-Java/tree/master/Time_And_Space_Complexity)

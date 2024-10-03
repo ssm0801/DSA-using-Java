@@ -1,4 +1,4 @@
-# Order
+# Table of Contents
 
 1. [User Input](https://github.com/ssm0801/DSA-using-Java/blob/master/Java_Basics/InputOutput.java)
 2. [Array](https://github.com/ssm0801/DSA-using-Java/blob/master/Java_Basics/Array.java)
