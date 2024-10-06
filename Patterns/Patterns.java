@@ -125,6 +125,7 @@ public class Patterns {
     //   *****     => 2 space then 5 star
     //  *******    => 1 space then 7 star
     // *********   => 0 space then 9 star
+    // *********   => 0 space then 9 star
     //  *******    => 1 space then 7 star
     //   *****     => 2 space then 5 star
     //    ***      => 3 space then 3 star
@@ -154,6 +155,21 @@ public class Patterns {
                 System.out.print("*");
             }
             System.out.println();
+        }
+        
+        // OR
+        
+        int stars = 1;
+        int mid = (2 * n - 1) / 2;
+        for (int i = 0; i < 2 * n - 1; i++) {
+        	for (int j = 0; j < stars; j++) {
+        		System.out.print("*");
+        	}
+        	if (i < mid)
+        		stars++;
+        	else
+        		stars--;
+        	System.out.println();
         }
     }
 
@@ -409,30 +425,253 @@ public class Patterns {
             System.out.println();
         }
     }
-    public static void main(String[] args) {
-        int n = 4;
 
-        pattern1(n);
-        pattern2(n);
-        pattern3(n);
-        pattern4(n);
-        pattern5(n);
-        pattern6(n);
-        pattern7(n);
-        pattern8(n);
-        pattern9(n);
-        pattern10(n);
-        pattern11(n);
-        pattern12(n);
-        pattern13(n);
-        pattern14(n);
-        pattern15(n);
-        pattern16(n);
-        pattern17(n);
-        pattern18(n);
-        pattern19(n);
-        pattern20(n);
-        pattern21(n);
-        pattern22(n);
+    //    *             i = 0 - 3 space + * + 0 space
+    //   * *            i = 1 - 2 space + * + 1 space + *
+    //  *   *           i = 2 - 1 space + * + 3 space + *
+    // *     *   ===>   i = 3 - 0 space + * + 5 space + *
+    //  *   *           i = 4 - 1 space + * + 3 space + *
+    //   * *            i = 5 - 2 space + * + 1 space + *
+    //    *             i = 3 - 3 space + * + 0 space
+    static void pattern23(int n) {
+        int space1 = n - 1;
+        int space2 = -1;
+        for (int i = 0; i < 2 * n - 1; i++) {
+            for (int j = 0; j < space1; j++) {
+                System.out.print(" ");
+            }
+            System.out.print("*");
+            for (int j = 0; j < space2; j++) {
+                System.out.print(" ");
+            }
+            if (i != 0 && i != 2 * n - 2) {
+                System.out.print("*");
+            }
+            System.out.println();
+            if (i < n - 1) {
+                space1--;
+                space2 += 2;
+            }
+            else {
+                space1++;
+                space2 -= 2;
+            }
+        }
+    }
+
+    //        *
+    //       * *
+    //      * * *
+    //     * * * *
+    //    * * * * *
+    static void pattern24(int n) {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n - i; j++) {
+                System.out.print(" ");
+            }
+            char c = '*';
+            for (int j = 0; j < 2 * i + 1; j++) {
+                System.out.print(c);
+                c = (c=='*') ? ' ' : '*';
+            }
+            System.out.println();
+        }
+    }
+
+    //    * * * * *
+    //     * * * *
+    //      * * *
+    //       * *
+    //        *
+    static void pattern25(int n) {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < i; j++) {
+                System.out.print(" ");
+            }
+            char c = '*';
+            for (int j = 0; j < (2*n) - (2*i+1); j++) {
+                System.out.print(c);
+                c = (c=='*') ? ' ' : '*';
+            }
+            System.out.println();
+        }
+    }
+
+    //    *           => stars are printed only on boundaries
+    //    * *
+    //    *   *
+    //    *     *
+    //    *********
+    static void pattern26(int n) {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < 2 * i + 1; j++) {
+                if (j == 0 || i == n - 1 || j == 2 * i) {
+                    System.out.print("*");
+                }
+                else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+    }
+
+    //    *********     => stars are printed only on boundaries
+    //    *     *
+    //    *   *
+    //    * *
+    //    *
+    static void pattern27(int n) {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < 2 * (n - i) - 1; j++) {
+                if (i == 0 || j == 0 || j == 2 * (n - i - 1)) {
+                    System.out.print("*");
+                }
+                else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+    }
+
+    //    1
+    //    1   1
+    //    1   2   1
+    //    1   3   3   1
+    //    1   4   4   4   1
+    static void pattern28(int n) {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < i + 1; j++) {
+                if (j == 0 || j == i) {
+                    System.out.print("1 ");
+                }
+                else {
+                    System.out.print(i + " ");
+                }
+            }
+            System.out.println();
+        }
+    }
+
+    //       1
+    //      212
+    //     32123
+    //    4321234
+    //     32123
+    //      212
+    //       1
+    static void pattern29(int n) {
+        // YET TO SOLVE
+    }
+
+    //    a
+    //    B c
+    //    D e F
+    //    g H i J
+    //    k L m N o
+    static void pattern30(int n) {
+        char c = 'a';
+        boolean smallCase = true;
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < i + 1; j++) {
+                System.out.print((smallCase ? c : (char)(c - 32)) + " ");
+                c++;
+                smallCase = !smallCase;
+            }
+            System.out.println();
+        }
+    }
+
+    //    E D C B A
+    //    D C B A
+    //    C B A
+    //    B A
+    //    A
+    static void pattern31(int n) {
+        for (int i = 0; i < n; i++) {
+            char start = (char)('A' + n - i - 1);
+            for (int j = 0; j < n - i; j++) {
+                System.out.print(start + " ");
+                start--;
+            }
+            System.out.println();
+        }
+    }
+
+    //      *****
+    //     *   *
+    //    *   *
+    //   *   *
+    //  *****
+    static void pattern32(int n) {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n - i - 1; j++) {
+                System.out.print(" ");
+            }
+            System.out.print("*");
+            for (int j = 0; j < n - 2; j++) {
+                System.out.print((i == 0 || i == n - 1) ? "*" : " ");
+            }
+            System.out.println("*");
+        }
+    }
+
+    //  *        *
+    //  **      **
+    //  * *    * *
+    //  *  *  *  *
+    //  *   **   *
+    //  *   **   *
+    //  *  *  *  *
+    //  * *    * *
+    //  **      **
+    //  *        *
+    static void pattern33(int n) {
+        // YET TO SOLVE
+    }
+
+    //      *      *
+    //    *   *  *   *
+    //  *      *      *
+    static void pattern34(int n) {
+        // YET TO SOLVE
+    }
+
+    public static void main(String[] args) {
+        int n = 5;
+
+//        pattern1(n);
+//        pattern2(n);
+//        pattern3(n);
+//        pattern4(n);
+//        pattern5(n);
+//        pattern6(n);
+//        pattern7(n);
+//        pattern8(n);
+//        pattern9(n);
+//        pattern10(n);
+//        pattern11(n);
+//        pattern12(n);
+//        pattern13(n);
+//        pattern14(n);
+//        pattern15(n);
+//        pattern16(n);
+//        pattern17(n);
+//        pattern18(n);
+//        pattern19(n);
+//        pattern20(n);
+//        pattern21(n);
+//        pattern22(n);
+//        pattern23(n);
+//        pattern24(n);
+//        pattern25(n);
+//        pattern26(n);
+//        pattern27(n);
+//        pattern28(n);
+//        pattern29(n);
+//        pattern30(n);
+//        pattern31(n);
+//        pattern32(n);
     }
 }
