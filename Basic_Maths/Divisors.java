@@ -1,4 +1,4 @@
-package BasicMaths;
+package Basic_Maths;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,7 +18,7 @@ public class Divisors {
 
     // TC = O(√n)
     static List<Integer> divisors2(int n) {
-        List<Integer> divisors = new ArrayList<Integer>();
+        List<Integer> divisors = new ArrayList<>();
         for (int i = 1; i <= Math.sqrt(n); i++) {
             if (n % i == 0) {
                 divisors.add(i);
@@ -34,6 +34,7 @@ public class Divisors {
         divisors.sort(null);
         return divisors;
     }
+
     public static void main(String[] args) {
         int n = 27;
         System.out.println(divisors1(n));
