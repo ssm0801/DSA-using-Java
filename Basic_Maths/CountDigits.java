@@ -1,4 +1,4 @@
-package BasicMaths;
+package Basic_Maths;
 
 public class CountDigits {
     // normal method
@@ -19,6 +19,7 @@ public class CountDigits {
         String str = Integer.toString(n);
         return str.length();
     }
+
     public static void main(String[] args) {
         int n = -123;
         System.out.println(countDigits1(n));

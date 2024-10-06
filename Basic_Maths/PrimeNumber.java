@@ -1,4 +1,4 @@
-package BasicMaths;
+package Basic_Maths;
 
 public class PrimeNumber {
 
@@ -16,7 +16,7 @@ public class PrimeNumber {
     }
 
     // TC = O(√n)
-    static boolean isPrime2(int n ) {
+    static boolean isPrime2(int n) {
         if (n == 1) {
             return false;
         }
@@ -27,6 +27,7 @@ public class PrimeNumber {
         }
         return true;
     }
+
     public static void main(String[] args) {
         int n = 59;
         System.out.println(isPrime1(n));

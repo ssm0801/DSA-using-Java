@@ -1,4 +1,4 @@
-package BasicMaths;
+package Basic_Maths;
 
 public class SumTillN {
 
@@ -16,6 +16,7 @@ public class SumTillN {
     static int sum2(int n) {
         return (n * (n + 1)) / 2;
     }
+
     public static void main(String[] args) {
         int n = 10;
         System.out.println(sum1(n));

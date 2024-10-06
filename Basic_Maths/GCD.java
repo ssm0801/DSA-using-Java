@@ -1,4 +1,4 @@
-package BasicMaths;
+package Basic_Maths;
 
 // GCD and HCF are same
 public class GCD {
@@ -15,18 +15,17 @@ public class GCD {
     }
 
     // Euclidean algorithm
-    // GCD(a,b) = GCD(a-b,b) ; where a>b
-    // GCD(a,b) = GCD(a%b,b) ; where a>b
     // TC = O(log(min(m,n)))
-    static int gcd2(int n1, int n2) {
-        while (n1 > 0 && n2 > 0) {
-            if (n1 > n2)
-                n1 %= n2;
+    static int gcd2(int a, int b) {
+        while (a > 0 && b > 0) {
+            if (a > b)
+                a %= b;
             else
-                n2 %= n1;
+                b %= a;
         }
-        return (n1 == 0) ? n2 : n1;
+        return (a == 0) ? b : a;
     }
+
     public static void main(String[] args) {
         int n1 = 52;
         int n2 = 10;

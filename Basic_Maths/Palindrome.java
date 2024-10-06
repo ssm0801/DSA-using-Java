@@ -1,6 +1,6 @@
-package BasicMaths;
+package Basic_Maths;
 
-import static BasicMaths.ReverseNumber.reverseNumber;
+import static Basic_Maths.ReverseNumber.reverseNumber;
 
 public class Palindrome {
 
@@ -12,6 +12,7 @@ public class Palindrome {
         int reversedNumber = reverseNumber(n);
         return reversedNumber == n;
     }
+
     public static void main(String[] args) {
         int n = -12321;
         System.out.println(isPalindrome(n));
