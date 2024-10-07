@@ -1,4 +1,4 @@
-package Basics;
+package Java_Basics;
 
 public class Functions {
     // Can reference both static and non-static context
