@@ -7,6 +7,7 @@
 3. [Patterns](https://github.com/ssm0801/DSA-using-Java/tree/master/Patterns)
 4. [Basic Maths](https://github.com/ssm0801/DSA-using-Java/tree/master/Basic_Maths)
 5. [Recursion](https://github.com/ssm0801/DSA-using-Java/tree/master/Recursion)
+6. [Hashing](https://github.com/ssm0801/DSA-using-Java/tree/master/Hashing)
 
 ## Resources
 

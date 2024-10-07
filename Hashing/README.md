@@ -23,7 +23,7 @@ Hashing is combination of below two steps:
 - Hashing can be used for number, characters
 - Lowercase - 26, Uppercase - 26, All - 256
 
-### Hashing methods
+## Hashing methods
 
 1. Division
 2. Folding
@@ -53,6 +53,8 @@ Hashing is combination of below two steps:
 
   ![Image](https://static.takeuforward.org/wp/uploads/2023/01/Screenshot-2023-01-28-191630.png)
 
-- But if all the numbers in given array has same reminder like `[8, 18, 28, 38, 48, 58, 68, ….., 1008]` then we end up having a linear chain of all numbers at single index
+- But if all the numbers in given array has same reminder like
+  `[8, 18, 28, 38, 48, 58, 68, ….., 1008]`
+  then we end up having a linear chain of all numbers at single index
 
   ![Image](https://static.takeuforward.org/wp/uploads/2023/01/Screenshot-2023-01-28-192940.png)
