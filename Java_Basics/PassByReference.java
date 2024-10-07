@@ -1,4 +1,4 @@
-package Basics;
+package Java_Basics;
 
 import java.util.Arrays;
 
@@ -8,6 +8,7 @@ public class PassByReference {
         arr[1] = 2;
         arr[2] = 3;
     }
+
     public static void main(String[] args) {
         int[] arr = new int[3];
         // it will print [0, 0, 0]
