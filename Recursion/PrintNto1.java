@@ -30,10 +30,6 @@ public class PrintNto1 {
         System.out.println(i);
     }
 
-    static void sumTillN(int n) {
-
-    }
-
     public static void main(String[] args) {
         int n = 5;
         print1(n, n);

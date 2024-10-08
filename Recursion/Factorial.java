@@ -2,6 +2,7 @@ package Recursion;
 
 public class Factorial {
 
+    // Iterative
     // TC = O(n)
     static int factorial1(int n) {
         int factorial = 1;
@@ -13,6 +14,7 @@ public class Factorial {
         return factorial;
     }
 
+    // Recursive
     static int factorial2(int n) {
         if (n == 0)
             return 1;
