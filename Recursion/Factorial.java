@@ -7,7 +7,7 @@ public class Factorial {
     static int factorial1(int n) {
         int factorial = 1;
         if (n == 0 || n == 1)
-           return factorial;
+            return factorial;
         for (int i = 1; i <= n; i++) {
             factorial *= i;
         }
@@ -20,6 +20,7 @@ public class Factorial {
             return 1;
         return n * factorial2(n - 1);
     }
+
     public static void main(String[] args) {
         int n = 7;
         System.out.println(factorial1(n));

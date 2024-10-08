@@ -19,6 +19,7 @@ public class Print1toN {
         printUsingBacktracking(n - 1);
         System.out.println(n);
     }
+
     public static void main(String[] args) {
         int n = 5;
         print(1, n);

@@ -13,6 +13,7 @@ public class Palindrome {
         // check for next letters from beginning and ending
         return isPalindrome(str, start + 1, end - 1);
     }
+
     public static void main(String[] args) {
         String str = "MADAM";
         System.out.println(isPalindrome(str, 0, str.length() - 1));
