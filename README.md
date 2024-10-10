@@ -10,9 +10,9 @@
 6. [Hashing](https://github.com/ssm0801/DSA-using-Java/tree/master/Hashing)
 7. [Java Collections](https://github.com/ssm0801/DSA-using-Java/tree/master/Java_Collections)
 8. [Sorting](https://github.com/ssm0801/DSA-using-Java/tree/master/Sorting)
-   a. [Bubble Sort](https://github.com/ssm0801/DSA-using-Java/tree/master/Sorting/Bubble)
-   b. [Selection Sort](https://github.com/ssm0801/DSA-using-Java/tree/master/Sorting/Selection)
-   c. [Insertion Sort](https://github.com/ssm0801/DSA-using-Java/tree/master/Sorting/Insertion)
+   1. [Bubble Sort](https://github.com/ssm0801/DSA-using-Java/tree/master/Sorting/Bubble)
+   2. [Selection Sort](https://github.com/ssm0801/DSA-using-Java/tree/master/Sorting/Selection)
+   3. [Insertion Sort](https://github.com/ssm0801/DSA-using-Java/tree/master/Sorting/Insertion)
 
 ## Resources
 
