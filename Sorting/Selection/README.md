@@ -7,7 +7,7 @@
 int[] arr = {13, 46, 24, 52, 20, 9};
 ```
 
-![Image](https://github.com/ssm0801/DSA-using-Java/blob/master/Sorting/Selection_Sort/selection.png)
+![Image](https://github.com/ssm0801/DSA-using-Java/blob/master/Sorting/Selection/selection.png)
 
 - From above image its clear that outer loop `i` will run from `0` to `n-2` i.e `[0,n-2]`
 - For inner loop `j` we will start from `i` till `n-1` every time to find minimum i.e `[i,n-1]`
