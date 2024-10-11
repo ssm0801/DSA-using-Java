@@ -1,6 +1,6 @@
 # Bubble Sort
 
-- Push max element to the last by adjacent swapping
+- Push element to the by adjacent swapping
 - Time complexity
   1. Worst & Avg = `O(n^2)`
   2. Best (optimised) = `O(n)`
