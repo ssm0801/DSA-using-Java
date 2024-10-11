@@ -13,6 +13,7 @@
    1. [Bubble Sort](https://github.com/ssm0801/DSA-using-Java/tree/master/Sorting/Bubble)
    2. [Selection Sort](https://github.com/ssm0801/DSA-using-Java/tree/master/Sorting/Selection)
    3. [Insertion Sort](https://github.com/ssm0801/DSA-using-Java/tree/master/Sorting/Insertion)
+   4. [Merge Sort](https://github.com/ssm0801/DSA-using-Java/tree/master/Sorting/Merge)
 
 ## Resources
 
