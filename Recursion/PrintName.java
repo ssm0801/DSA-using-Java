@@ -23,7 +23,7 @@ public class PrintName {
     public static void main(String[] args) {
         String name = "John";
         int n = 5;
-        printName1("x", n);
-        printName2("y", 1, n);
+        printName1(name, n);
+        printName2(name, 1, n);
     }
 }

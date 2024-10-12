@@ -12,6 +12,7 @@ public class Array {
         // default values are 0
         int[] arr3 = new int[5];
 
+        System.out.println(Arrays.toString(arr));
         System.out.println(Arrays.toString(arr1));
         System.out.println(Arrays.toString(arr2));
         System.out.println(Arrays.toString(arr3));

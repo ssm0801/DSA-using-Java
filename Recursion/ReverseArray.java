@@ -1,8 +1,6 @@
 package Recursion;
 
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
 
 public class ReverseArray {
 
@@ -43,8 +41,9 @@ public class ReverseArray {
         arr[n - i - 1] = temp;
         reverseArray3(arr, i + 1);
     }
+
     public static void main(String[] args) {
-        int[] arr = {48,24,87,95,5};
+        int[] arr = { 48, 24, 87, 95, 5 };
         System.out.println(Arrays.toString(reverseArray1(arr)));
         System.out.println(Arrays.toString(arr));
         reverseArray2(arr, 0, arr.length - 1);
