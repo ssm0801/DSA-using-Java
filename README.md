@@ -17,13 +17,15 @@
 5. [Recursion](https://github.com/ssm0801/DSA-using-Java/tree/master/Recursion)
 6. [Hashing](https://github.com/ssm0801/DSA-using-Java/tree/master/Hashing)
 7. [Java Collections](https://github.com/ssm0801/DSA-using-Java/tree/master/Java_Collections)
-8. [Sorting](https://github.com/ssm0801/DSA-using-Java/tree/master/Sorting)
+8. [Searching](https://github.com/ssm0801/DSA-using-Java/tree/master/Searching)
+   1. [Linear Search](https://github.com/ssm0801/DSA-using-Java/tree/master/Searching/LinearSearch.java)
+   2. [Binary Search](https://github.com/ssm0801/DSA-using-Java/tree/master/Searching/BinarySearch.java)
+9. [Sorting](https://github.com/ssm0801/DSA-using-Java/tree/master/Sorting)
    1. [Bubble Sort](https://github.com/ssm0801/DSA-using-Java/tree/master/Sorting/Bubble)
    2. [Selection Sort](https://github.com/ssm0801/DSA-using-Java/tree/master/Sorting/Selection)
    3. [Insertion Sort](https://github.com/ssm0801/DSA-using-Java/tree/master/Sorting/Insertion)
    4. [Merge Sort](https://github.com/ssm0801/DSA-using-Java/tree/master/Sorting/Merge)
    5. [Quick Sort](https://github.com/ssm0801/DSA-using-Java/tree/master/Sorting/Quick)
-
 ## Resources
 
 1. [Striver A2Z DSA sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/)
