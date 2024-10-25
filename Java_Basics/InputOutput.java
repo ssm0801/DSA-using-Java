@@ -18,7 +18,7 @@ public class InputOutput {
 
         // string related
         char g = scanner.next().charAt(0);
-        String h = scanner.next();
+        String h = scanner.nextLine();
 
         System.out.println(a);
         System.out.println(b);
