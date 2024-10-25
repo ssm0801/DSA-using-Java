@@ -24,7 +24,7 @@ double f = scanner.nextDouble();
 // next will take first word only
 char g = scanner.next().charAt(0);
 // nextLine will read entire line until it finds new line separator
-String h = scanner.next();
+String h = scanner.nextLine();
 ```
 
 ## Arrays
