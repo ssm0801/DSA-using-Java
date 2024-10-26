@@ -25,6 +25,11 @@
    3. [Insertion Sort](https://github.com/ssm0801/DSA-using-Java/tree/master/Sorting/Insertion)
    4. [Merge Sort](https://github.com/ssm0801/DSA-using-Java/tree/master/Sorting/Merge)
    5. [Quick Sort](https://github.com/ssm0801/DSA-using-Java/tree/master/Sorting/Quick)
+9. [Arrays](https://github.com/ssm0801/DSA-using-Java/tree/master/Arrays)
+   1. [Largest element in an array](https://github.com/ssm0801/DSA-using-Java/blob/master/Arrays/Question1.java)
+   2. [Smallest element in an array](https://github.com/ssm0801/DSA-using-Java/blob/master/Arrays/Question1.java)
+   3. [Second largest element in an array](https://github.com/ssm0801/DSA-using-Java/blob/master/Arrays/Question2.java)
+   4. [Second smallest element in an array](https://github.com/ssm0801/DSA-using-Java/blob/master/Arrays/Question2.java)
 
 ## Resources
 
