@@ -25,6 +25,7 @@
    3. [Insertion Sort](https://github.com/ssm0801/DSA-using-Java/tree/master/Sorting/Insertion)
    4. [Merge Sort](https://github.com/ssm0801/DSA-using-Java/tree/master/Sorting/Merge)
    5. [Quick Sort](https://github.com/ssm0801/DSA-using-Java/tree/master/Sorting/Quick)
+
 ## Resources
 
 1. [Striver A2Z DSA sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/)
