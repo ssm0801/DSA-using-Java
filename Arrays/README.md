@@ -7,3 +7,4 @@
 5. [Remove duplicated from sorted array](https://github.com/ssm0801/DSA-using-Java/blob/master/Arrays/Question3.java)
 6. [Left rotate array by x places](https://github.com/ssm0801/DSA-using-Java/blob/master/Arrays/Question4.java)
 7. [Right rotate array by x places](https://github.com/ssm0801/DSA-using-Java/blob/master/Arrays/Question4.java)
+8. [Move zeroes to end](https://github.com/ssm0801/DSA-using-Java/blob/master/Arrays/Question5.java)
