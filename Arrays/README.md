@@ -8,3 +8,4 @@
 6. [Left rotate array by x places](https://github.com/ssm0801/DSA-using-Java/blob/master/Arrays/Question4.java)
 7. [Right rotate array by x places](https://github.com/ssm0801/DSA-using-Java/blob/master/Arrays/Question4.java)
 8. [Move zeroes to end](https://github.com/ssm0801/DSA-using-Java/blob/master/Arrays/Question5.java)
+9. [Check if the array is sorted](https://github.com/ssm0801/DSA-using-Java/blob/master/Arrays/Question6.java)
