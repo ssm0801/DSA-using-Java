@@ -5,7 +5,6 @@ import java.util.SortedMap;
 import java.util.TreeMap;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashMap;
 
 public class Question7 {
 
