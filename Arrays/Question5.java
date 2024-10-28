@@ -7,7 +7,7 @@ public class Question5 {
   // bruteforce
   // SC : O(n)
   // TC : O(n)
-  static void moveZerosToEnd1(int[] arr) {
+  static void moveZerosToEnd(int[] arr) {
     int n = arr.length;
     int temp[] = new int[n];
     int current = 0;
@@ -33,7 +33,7 @@ public class Question5 {
   // optimised
   // SC : O(1)
   // TC : O(n)
-  static void moveZerosToEnd2(int[] arr) {
+  static void moveZerosToEndOptimised(int[] arr) {
     int n = arr.length;
     int i = 0;
     int j = 0;
@@ -48,7 +48,7 @@ public class Question5 {
 
   public static void main(String[] args) {
     int arr[] = { 2, 0, 1, 0, 3, 12 };
-    moveZerosToEnd1(arr);
+    moveZerosToEndOptimised(arr);
     System.out.println(Arrays.toString(arr));
   }
 }
