@@ -19,7 +19,6 @@ public class Question6 {
   // SC : O(1)
   // TC : O(n)
   static boolean isSortedAndRotated(int[] arr) {
-    // 3, 4, 5, 1, 2
     int n = arr.length;
     int rotationPointCount = 0;
     for (int i = 0; i <= n - 2; i++) {
@@ -37,10 +36,7 @@ public class Question6 {
   }
 
   public static void main(String[] args) {
-    // [3,4,5,1,2]
-    // [2,1,3,4]
-    // [1,2,3]
-    int arr[] = { 6, 10, 6 };
+    int arr[] = { 3, 4, 5, 1, 2 };
     System.out.println(isSortedAndRotated(arr));
   }
 }
