@@ -14,3 +14,5 @@
 | 10.   | [Move zeroes to end](https://github.com/ssm0801/DSA-using-Java/blob/master/Arrays/Question5.java)                       | Two pointer - Iteration |
 | 11.   | [Union of two arrays](https://github.com/ssm0801/DSA-using-Java/blob/master/Arrays/Question7.java)                      | Iteration               |
 | 12.   | [Union of two sorted arrays](https://github.com/ssm0801/DSA-using-Java/blob/master/Arrays/Question7.java)               | Two pointer - Iteration |
+| 13.   | [Intersection of two arrays](https://github.com/ssm0801/DSA-using-Java/blob/master/Arrays/Question8.java)               | Iteration               |
+| 14.   | [Intersection of two sorted arrays](https://github.com/ssm0801/DSA-using-Java/blob/master/Arrays/Question8.java)        | Two pointer - Iteration |
