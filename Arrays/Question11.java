@@ -1,16 +1,8 @@
 package Arrays;
 
-public class Question11 {
+import java.util.HashMap;
 
-  public static int max(int[] arr) {
-    int max = arr[0];
-    for (int i = 1; i < arr.length; i++) {
-      if (arr[i] > max) {
-        max = arr[i];
-      }
-    }
-    return max;
-  }
+public class Question11 {
 
   // find number which is appearing once
   // bruteforce
@@ -36,12 +28,12 @@ public class Question11 {
   // SC : O(n)
   // TC : O(n)
   static int singleNumBetter(int[] arr) {
-    int hm[] = new int[max(arr) + 1];
+    HashMap<Integer, Integer> hm = new HashMap<>();
     for (int i : arr) {
-      hm[i] = hm[i] + 1;
+      hm.put(i, hm.getOrDefault(i, 0) + 1);
     }
-    for (int i = 0; i < hm.length; i++) {
-      if (hm[i] == 1) {
+    for (int i : hm.keySet()) {
+      if (hm.get(i) == 1) {
         return i;
       }
     }
@@ -61,7 +53,7 @@ public class Question11 {
 
   public static void main(String[] args) {
     int arr[] = { 4, 2, 1, 1, 2 };
-    int num = singleNumBetter(arr);
+    int num = singleNumOptimised(arr);
     System.out.println("single number = " + num);
   }
 }
