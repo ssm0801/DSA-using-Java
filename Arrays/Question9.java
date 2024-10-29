@@ -1,7 +1,5 @@
 package Arrays;
 
-import java.util.HashMap;
-
 public class Question9 {
 
   // missing number from 0 to n among n distinct numbers
