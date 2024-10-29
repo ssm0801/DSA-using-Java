@@ -26,7 +26,7 @@ public class Question11 {
 
   // better
   // SC : O(n)
-  // TC : O(n)
+  // TC : O(n * log (n))
   static int singleNumBetter(int[] arr) {
     HashMap<Integer, Integer> hm = new HashMap<>();
     for (int i : arr) {
