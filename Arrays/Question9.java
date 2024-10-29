@@ -55,9 +55,25 @@ public class Question9 {
     return sum;
   }
 
+  // most optimised - using xor
+  // xor of two same numbers is 0
+  // a ^ a = 0 and a ^ 0 = a
+  // SC : O(1)
+  // TC : O(n)
+  static int missingNumXor(int[] arr) {
+    int n = arr.length;
+    int xor1 = 0;
+    int xor2 = 0;
+    for (int i = 0; i < n; i++) {
+      xor1 = xor1 ^ (i + 1);
+      xor2 = xor2 ^ arr[i];
+    }
+    return xor1 ^ xor2;
+  }
+
   public static void main(String[] args) {
     int arr[] = { 9, 6, 4, 2, 3, 5, 7, 0, 1 };
-    int num = missingNumBetter(arr);
+    int num = missingNumXor(arr);
     System.out.println("Missing number = " + num);
   }
 }
