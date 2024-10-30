@@ -61,7 +61,7 @@ public class Question12 {
     int j = 0;
     int longest = 0;
     int n = arr.length;
-    int sum = 0;
+    int sum = arr[0];
     while (i < n) {
       // this loop is running overall only for n
       while (sum > k && j <= i) {
@@ -76,13 +76,13 @@ public class Question12 {
         sum += arr[i];
       }
     }
-    return 0;
+    return longest;
   }
 
   public static void main(String[] args) {
     int arr[] = { 10, 5, 2, 7, 1, 9 };
     int k = 15;
-    int longest = longestSubArrayBetter(arr, k);
+    int longest = longestSubArrayOptimised(arr, k);
     System.out.println("Longest sub array = " + longest);
   }
 }
