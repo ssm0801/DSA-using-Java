@@ -19,4 +19,5 @@
 | 15.   | [Missing number in array](https://github.com/ssm0801/DSA-using-Java/blob/master/Arrays/Question9.java)                                    | Sum of n or XOR                         |
 | 16.   | [Maximum consecutive ones](https://github.com/ssm0801/DSA-using-Java/blob/master/Arrays/Question10.java)                                  | Iteration                               |
 | 17.   | [Find number that appears once, whereas other number twice](https://github.com/ssm0801/DSA-using-Java/blob/master/Arrays/Question11.java) | Hashmap or XOR                          |
-| 18.   | [Longest sub array with sum k](https://github.com/ssm0801/DSA-using-Java/blob/master/Arrays/Question12.java)                              | +ve = Two pointers, +ve & -ve = HashMap |
+| 18.   | [Two sum](https://github.com/ssm0801/DSA-using-Java/blob/master/Arrays/Question13.java)                                                   | HashMap & Two pointer                   |
+| 19.   | [Longest sub array with sum k](https://github.com/ssm0801/DSA-using-Java/blob/master/Arrays/Question12.java)                              | +ve = Two pointers, +ve & -ve = HashMap |
