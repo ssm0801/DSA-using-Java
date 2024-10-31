@@ -12,7 +12,7 @@ public class Question14 {
 
   // bruteforce
   // SC : O(1)
-  // TC : O(n)
+  // TC : O(2n)
   static void sort(int[] arr) {
     int zeroes = 0;
     int ones = 0;
@@ -54,7 +54,7 @@ public class Question14 {
     int low = 0;
     int mid = 0;
     int high = n - 1;
-    while (mid < high) {
+    while (mid <= high) {
       if (arr[mid] == 0) {
         swap(arr, mid, low);
         mid++;
@@ -69,7 +69,7 @@ public class Question14 {
   }
 
   public static void main(String[] args) {
-    int arr[] = { 2, 0, 2, 1, 1, 0 };
+    int arr[] = { 2, 0, 1 };
     sortOptimised(arr);
     System.out.println("Sorted = " + Arrays.toString(arr));
   }
