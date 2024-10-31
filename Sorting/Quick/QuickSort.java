@@ -8,7 +8,7 @@ public class QuickSort {
   // take a pivot and place it at its correct position
   // by placing smaller values than pivot on left and bigger values on right
   // O(n * log n)
-  static void quickSort(int[] arr, int low, int high) {
+  public static void quickSort(int[] arr, int low, int high) {
     if (low >= high)
       return;
     int pIndex = partition(arr, low, high);
