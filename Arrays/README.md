@@ -23,3 +23,4 @@
 | 19.   | [Sort 0's, 1's & 2's](https://github.com/ssm0801/DSA-using-Java/blob/master/Arrays/Question14.java)                                       | Dutch National Flag Algo                |
 | 20.   | [Majority element](https://github.com/ssm0801/DSA-using-Java/blob/master/Arrays/Question15.java)                                          | Moore's Voting Algo                     |
 | 21.   | [Longest sub array with sum k](https://github.com/ssm0801/DSA-using-Java/blob/master/Arrays/Question12.java)                              | +ve = Two pointers, +ve & -ve = HashMap |
+| 22.   | [Subarray with maximum sum](https://github.com/ssm0801/DSA-using-Java/blob/master/Arrays/Question16.java)                                 | Kadane's Algo                           |
