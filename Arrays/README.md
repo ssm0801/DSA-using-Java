@@ -21,4 +21,5 @@
 | 17.   | [Find number that appears once, whereas other number twice](https://github.com/ssm0801/DSA-using-Java/blob/master/Arrays/Question11.java) | Hashmap or XOR                          |
 | 18.   | [Two sum](https://github.com/ssm0801/DSA-using-Java/blob/master/Arrays/Question13.java)                                                   | HashMap & Two pointer                   |
 | 19.   | [Sort 0's, 1's & 2's](https://github.com/ssm0801/DSA-using-Java/blob/master/Arrays/Question14.java)                                       | Dutch National Flag Algo                |
-| 20.   | [Longest sub array with sum k](https://github.com/ssm0801/DSA-using-Java/blob/master/Arrays/Question12.java)                              | +ve = Two pointers, +ve & -ve = HashMap |
+| 20.   | [Majority element](https://github.com/ssm0801/DSA-using-Java/blob/master/Arrays/Question15.java)                                          | Moore's Voting Algo                     |
+| 21.   | [Longest sub array with sum k](https://github.com/ssm0801/DSA-using-Java/blob/master/Arrays/Question12.java)                              | +ve = Two pointers, +ve & -ve = HashMap |
