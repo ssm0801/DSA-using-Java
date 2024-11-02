@@ -37,6 +37,10 @@ public class Question6 {
 
   public static void main(String[] args) {
     int arr[] = { 3, 4, 5, 1, 2 };
+    // Test Cases for reference
+    // { 3, 4, 5, 1, 2 } = true
+    // { 2, 1, 3, 4 } = false
+    // { 1, 2, 3 } = true
     System.out.println(isSortedAndRotated(arr));
   }
 }
