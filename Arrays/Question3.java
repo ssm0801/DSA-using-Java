@@ -9,7 +9,7 @@ public class Question3 {
 
   // bruteforce
   // can have new array with unique elements
-  // SC : O(k) ; k unique elements
+  // SC : O(n)
   // TC : O(n)
   public static int[] removeDuplicates1(int[] arr) {
     Set<Integer> set = new HashSet<>();
