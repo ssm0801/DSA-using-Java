@@ -3,6 +3,8 @@ package Arrays;
 public class Question1 {
 
   // largest element in an array
+  // SC : O(1)
+  // TC : O(n)
   public static int largestElement(int[] arr) {
     int max = arr[0];
     for (int i = 1; i < arr.length; i++) {
@@ -14,6 +16,8 @@ public class Question1 {
   }
 
   // smallest element in an array
+  // SC : O(1)
+  // TC : O(n)
   public static int smallestElement(int[] arr) {
     int min = arr[0];
     for (int i = 1; i < arr.length; i++) {

@@ -24,7 +24,7 @@ public class Question3 {
   }
 
   // optimised
-  // remove duplicates in same array and take remaining numbers as -1
+  // remove duplicates in sorted array and take remaining numbers as -1
   // two pointer
   // SC : O(1)
   // TC : O(n)

@@ -3,6 +3,8 @@ package Arrays;
 public class Question2 {
 
   // second largest element in an array
+  // SC : O(1)
+  // TC : O(n)
   public static int secondLargestElement(int[] arr) {
     int largest = arr[0];
     int secondLargest = -1;
@@ -18,6 +20,8 @@ public class Question2 {
   }
 
   // second smallest element in an array
+  // SC : O(1)
+  // TC : O(n)
   public static int secondSmallestElement(int[] arr) {
     int smallest = arr[0];
     int secondSmallest = -1;
