@@ -7,4 +7,4 @@
 
 ## Notes
 
-- Pre-requisite for binary search is that, array should be sorted
+- Pre-requisite for binary search is, array should be sorted
