@@ -29,7 +29,7 @@ public class Question8 {
   // intersection of two sorted arrays
   // optimised
   // SC : O(n)
-  // TC : O(m+n)
+  // TC : O(min(m,n))
   static int[] intersectionOfSorted(int[] a, int[] b) {
     List<Integer> list = new ArrayList<>();
     int i = 0;
