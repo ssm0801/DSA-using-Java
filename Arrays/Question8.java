@@ -10,7 +10,7 @@ public class Question8 {
   // intersection of two arrays
   // bruteforce
   // SC : O(n + min(m,n))
-  // TC : O(n * log n)
+  // TC : O((m+n) * log (m+n))
   static int[] intersection(int[] a, int[] b) {
     HashMap<Integer, Integer> hm = new HashMap<>();
     List<Integer> list = new ArrayList<>();
@@ -28,7 +28,7 @@ public class Question8 {
 
   // intersection of two sorted arrays
   // optimised
-  // SC : O(k) ; k common elements
+  // SC : O(n)
   // TC : O(m+n)
   static int[] intersectionOfSorted(int[] a, int[] b) {
     List<Integer> list = new ArrayList<>();
