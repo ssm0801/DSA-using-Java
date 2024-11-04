@@ -6,7 +6,7 @@ import Sorting.Quick.QuickSort;
 
 public class Question13 {
 
-  // indicies of two numbers that add up to target
+  // indices of two numbers that add up to target
   // bruteforce
   // SC : O(1)
   // TC : O(n^2)
