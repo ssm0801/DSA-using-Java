@@ -26,10 +26,11 @@ public class Question12 {
     return longest;
   }
 
-  // better
+  // optimised
+  // for positive & negative integers - hashing
   // SC : O(n)
   // TC : O(n * log n)
-  static int longestSubArrayBetter(int[] arr, int k) {
+  static int longestSubArrayOptimised1(int[] arr, int k) {
     // (preSum, index)
     HashMap<Integer, Integer> preSumMap = new HashMap<>();
     int longest = 0;
@@ -56,7 +57,7 @@ public class Question12 {
   // only for positive integers - two pointers
   // SC : O(1)
   // TC : O(2n)
-  static int longestSubArrayOptimised(int[] arr, int k) {
+  static int longestSubArrayOptimised2(int[] arr, int k) {
     int i = 0;
     int j = 0;
     int longest = 0;
@@ -82,7 +83,7 @@ public class Question12 {
   public static void main(String[] args) {
     int arr[] = { 10, 5, 2, 7, 1, 9 };
     int k = 15;
-    int longest = longestSubArrayOptimised(arr, k);
+    int longest = longestSubArrayOptimised2(arr, k);
     System.out.println("Longest sub array = " + longest);
   }
 }
