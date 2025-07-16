@@ -3,13 +3,13 @@
 1. outer loop is for rows, inner loop is for columns
 2. for inner loop, focus on columns & connect them somehow to the rows
 3. print inside inner loop only
-4. observe symmetry [optional]
+4. observe symmetry [optional] - if symmetry possible then two loops can be used, else single loop
 
 ```
 look for below thing in patterns
 [characters + spaces + characters]
 
-Imp Q. 10, 12, 17, 18, 19, 20, 21, 22, 23, 27, 32
+Imp Q. 10, 12, 17, 18, 19, 20, 22, 23, 27, 32
 ```
 
 # Patterns
